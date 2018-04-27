@@ -1,0 +1,32 @@
+CREATE TABLE imdb(
+ color string, 
+ director_name string, 
+ num_critic_for_reviews string, 
+ duration string, 
+ director_facebook_likes string, 
+ actor_3_facebook_likes bigint, 
+ Actor_2_name string,
+ Actor_1facebooklikes string, 
+ Gross bigint,
+  genres int, 
+ actor_1_name string, 
+movie_title int, 
+Num_voted_users  int, 
+Cast_total_facebook_likes int,
+Actor_3_name string,
+Facenumber_in_poster string,
+Plot_keywords string,
+Movie_imdb_link string,
+Num_user_for_reviews int,
+Language string,
+Country string,
+Content_rating string,
+Budget int,
+Title_year int,
+Actor_2_facebook_likes int,
+Imdb_score int,
+Aspect_ratio int,
+Movie_facebook_likes int)
+ROW FORMAT DELIMITED 
+ FIELDS TERMINATED BY ',' 
+TBLPROPERTIES ('skip.header.line.count'='1');
